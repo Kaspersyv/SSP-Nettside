@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Stein Saks Papir: Spillside</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./CSS/style.css">
+        
+    </head>
+    <body>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+        <nav>
+    
+            <div class="logo">
+                Stein Saks Papir </div>
+                <input type="checkbox" id="click">
+                          <label for="click" class="menu-btn">
+                          </label>
+                          <ul>
+
+                            <li><a href="./index.html">Hjem</a></li>
+                            <li><a class="active" href="./spillside.html">Spill her!</a></li>
+                            <li><a href="./historie.html">Historie</a></li>
+                            <li><a href="./regler.html">Regler</a></li>
+                    </ul>
+        </nav>
+        <h1 id="header">Stein Saks Papir: The Game</h1>
+
+        
+        <img class="imgclass" id="mcstein"src="images/stone.png">
+        <img class="imgclass" id="mcsaks"src="images/shears.png">
+        <img class="imgclass" id="mcpapir"src="images/paper.png">
+        
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+        
+        
+        
+        <div id="gjettknapp">
+            <button id="gjett" onclick="guess()"> Gjett! </button>
+        </div>
+        
+
+        <p id="userscore">User Score: </p> 
+        <p id="usernum">0</p>
+        <p id="botscore">Computer Score: </p>
+        <p id="botnum">0</p>
+       
+        
+        <script src="./JS/script.js" async defer></script>
+    </body>
+</html>
